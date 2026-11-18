@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Bloque les requêtes sans referer ou depuis un autre domaine
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https?://(www\.)?gabyalaprod\.com [NC]
+
+# Si c'est un .mp3 ou .wav volé, on redirige vers une image
+RewriteRule \.(mp3|wav)$ /img/acces-interdit.png [R,L]

@@ -1,0 +1,74 @@
+.hero {
+    min-height: auto; /* on enlève le centrage vertical */
+    padding-top: 4rem; /* on pousse vers le bas légèrement */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .hero-title {
+    font-size: 2rem;
+    color: #005698;
+    margin-bottom: 1rem;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 25px;
+    width: 250px;
+    background: #1e1e1e;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 25px;
+    background: #005698;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background: white;
+  }
+  
+  .last-prod-title {
+    color: #005698;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .featured-track {
+    background-color: #111;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 145, 255, 0.2);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .featured-track h2 {
+    color: #005698;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .featured-track p {
+    color: white;
+    margin-bottom: 1rem;
+  }

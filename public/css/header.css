@@ -1,0 +1,36 @@
+header {    
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.949);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    color: #005698;
+  }
+  nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .admin-welcome {
+    background-color: #222;
+    color: #FFD700;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .admin-welcome a {
+    color: #FFD700;
+    text-decoration: underline;
+    margin-left: 1rem;
+  }
+  
+  
